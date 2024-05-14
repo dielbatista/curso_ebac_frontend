@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.form1 {
+    display: flex;
+    padding: 10px;
+    padding-top: 40px;
+    margin: 0 auto;
+
+    flex-direction: column;
+    width: 300px;
+    text-align: center;
+    line-height: 35px
+}
+
+.form1 {
+    border: solid 2px red;
+}
+
+.space {
+    margin-bottom: 10px;
+}
