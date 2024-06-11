@@ -1,0 +1,117 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header li {
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline;
+    margin-left: 10px;
+}
+
+body>header {
+    background-color: #2f3640;
+    padding: 16px 0;
+    color: #f5f6fa;
+}
+
+header li a {
+    padding: 2px;
+    font-size: 18px;
+    color: #f5f6fa;
+    text-decoration: none;
+}
+
+header li a:hover {
+    font-weight: 700;
+    color: rgb(121, 211, 241);
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles img {
+    width: 100%;
+}
+
+.articles article {
+    width: 30%;
+}
+
+section {
+    padding: 16px 0;
+}
+
+section h2,
+.articles article {
+    margin-bottom: 16px;
+}
+
+.articles article h3 {
+    font-size: 24px;
+    margin: 8px 0;
+}
+
+.articles article a {
+    margin-top: 9px;
+    background-color: aqua;
+    border: aqua solid 1px;
+    padding: 2px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: black;
+}
+
+.articles article a:hover {
+    display: inline-block;
+    padding: 3px;
+    background-color: rgb(5, 134, 134);
+    border: rgb(5, 134, 134) solid 1px;
+    border-radius: 4px;
+    color: wheat;
+}
+
+.articles article p,
+.articles article a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section h2 {
+    font-size: 32px;
+}
+
+#esportes {
+    background-color: rgba(0, 255, 0, 0.1);
+}
+
+#economia {
+    background-color: #f8f59f;
+}
+
+#tecnologia {
+    background-color: rgb(176, 126, 126);
+}
+
+#politica {
+    background-color: rgb(117, 117, 180);
+}
